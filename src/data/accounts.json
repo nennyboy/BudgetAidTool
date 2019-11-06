@@ -1,0 +1,106 @@
+{
+  "needs": [
+    {
+      "id": 1,
+      "name": "Rent",
+      "req": 705,
+      "equal": true,
+      "O": null
+    },
+    {
+      "id": 2,
+      "name": "Utilities",
+      "req": 110,
+      "equal": true,
+      "O": null
+    },
+    {
+      "id": 3,
+      "name": "Groceries",
+      "req": 242,
+      "equal": false,
+      "O": 0.8
+    },
+    {
+      "id": 4,
+      "name": "Insurance",
+      "req": 183.68,
+      "equal": false,
+      "O": 1.0
+    },
+    {
+      "id": 5,
+      "name": "Fuel",
+      "req": 205,
+      "equal": false,
+      "O": 1.0
+    },
+    {
+      "id": 6,
+      "name": "Car Maintenance",
+      "req": 109.75,
+      "equal": true,
+      "O": 1.0
+    },
+    {
+      "id": 7,
+      "name": "Medical",
+      "req": 30,
+      "equal": true,
+      "O": 1.0
+    }
+  ],
+  "wants": [
+    {
+      "id": 1,
+      "name": "Fun",
+      "req": 250,
+      "equal": false,
+      "O": 0.56
+    },
+    {
+      "id": 2,
+      "name": "Gym",
+      "req": 57,
+      "equal": false,
+      "O": 1.0
+    },
+    {
+      "id": 3,
+      "name": "Subscriptions",
+      "req": 121,
+      "equal": false,
+      "O": 0.63
+    },
+    {
+      "id": 4,
+      "name": "Clothing",
+      "req": 101,
+      "equal": false,
+      "O": 0.0099
+    },
+    {
+      "id": 5,
+      "name": "Additions",
+      "req": 0.01,
+      "equal": false,
+      "O": 1.0
+    }
+  ],
+  "savings": [
+    {
+      "id": 1,
+      "name": "Savings",
+      "req": 172.1,
+      "equal": false,
+      "O": 0
+    },
+    {
+      "id": 2,
+      "name": "Vacation",
+      "req": 0,
+      "equal": false,
+      "O": 0
+    }
+  ]
+}

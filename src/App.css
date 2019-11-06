@@ -1,3 +1,7 @@
-.Header {
-  
+.header-hover {
+  background-color: rgba(0,0,0,.025);
+}
+
+.reduce-font {
+font-size: 0.9rem;
 }
