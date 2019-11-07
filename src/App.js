@@ -8,16 +8,19 @@ import { Container, Tab, Tabs } from 'react-bootstrap'
 function App () {
   return (
     <Container>
-      <Tabs defaultActiveKey='personDetail' id='uncontrolled-tab-example'>
+      <h1 className='text-center'>Budget Tool</h1>
+      <hr />
+      <Tabs defaultActiveKey='budgetTool' id='uncontrolled-tab-example'>
+        <Tab eventKey='budgetTool' title='Budget Tool'>
+          <BudgetTool />
+        </Tab>
         <Tab eventKey='personDetail' title='Person Detail'>
           <div>
             <p className='p-1'>Select an individual to see how their income is distributed across costs</p>
           </div>
           <PersonList />
         </Tab>
-        <Tab eventKey='budgetTool' title='Budget Tool'>
-          <BudgetTool />
-        </Tab>
+
       </Tabs>
     </Container>
   )

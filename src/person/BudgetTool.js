@@ -1,10 +1,28 @@
 import React, { Component } from 'react'
 import AccData from '../data/accounts.json'
+import BudgetToolRow from './budgettool/BudgetToolRow'
+import BudgetToolTRow from './budgettool/BudgetToolTRow'
 import { Row, Form, Col, Table } from 'react-bootstrap'
 
 class BudgetTool extends Component {
-  handleChange (event) {
-    console.log(event)
+  constructor (props) {
+    super(props)
+    this.state = {
+      person: 'Ollie',
+      amount: 0
+    }
+  }
+
+  handleAmountChange = (e) => {
+    this.setState({
+      amount: e.target.value
+    })
+  }
+
+  handlePersonChange = (e) => {
+    this.setState({
+      person: e.target.value
+    })
   }
 
   render () {
@@ -14,7 +32,7 @@ class BudgetTool extends Component {
           <Form.Group as={Row} controlId='exampleForm.ControlSelect1'>
             <Form.Label column className='text-right'>User</Form.Label>
             <Col>
-              <Form.Control as='select'>
+              <Form.Control as='select' onChange={this.handlePersonChange}>
                 <option>Ollie</option>
                 <option>Maja</option>
               </Form.Control>
@@ -23,7 +41,7 @@ class BudgetTool extends Component {
           <Form.Group as={Row} controlId='exampleForm.ControlSelect2'>
             <Form.Label column className='text-right'>Budget Amount</Form.Label>
             <Col>
-              <Form.Control as='input' onChange={this.handleChange} type='number' min='0' placeholder='0' />
+              <Form.Control as='input' onChange={this.handleAmountChange} type='number' min='0' placeholder='0' />
             </Col>
           </Form.Group>
           <hr />
@@ -38,29 +56,19 @@ class BudgetTool extends Component {
               </tr>
             </thead>
             {
-              Object.entries(AccData).map((obj, i) => {
+              Object.entries(AccData).map((cat, i) => {
                 return (
                   <tbody key={i}>
-                    <tr className='text-muted font-weight-light bg-light text-right'>
-                      <td colSpan='2' className='text-dark font-weight-normal text-left text-capitalize'>{obj[0]}</td>
-                      <td>0</td>
-                      <td>{(1).toFixed(1) + '%'}</td>
-                    </tr>
-                    {obj[1].map((subObj, subI) => {
+                    <BudgetToolTRow cat={cat} amount={this.state.amount} person={this.state.person} />
+                    {cat[1].map((acct, b) => {
                       return (
-                        <tr className='font-weight-light text-right' key={subI}>
-                          <td />
-                          <td className='font-weight-normal text-left'>{subObj.name}</td>
-                          <td>0</td>
-                          <td>{(1).toFixed(1) + '%'}</td>
-                        </tr>
+                        <BudgetToolRow acct={acct} key={b} i={b} amount={this.state.amount} person={this.state.person} />
                       )
                     })}
                   </tbody>
                 )
               })
             }
-
           </Table>
         </div>
       </Row>
