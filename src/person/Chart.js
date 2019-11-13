@@ -11,7 +11,7 @@ ReactFC.fcRoot(FusionCharts, MSArea, FusionTheme)
 
 const mthDataset = () => {
   return Object.values(MthData).map((person) => {
-    const change = person.amount - (AccData.needs.reduce(function (sum, d) {
+    const change = (AccData.needs.reduce(function (sum, d) {
       return sum + (d.req * (d.equal ? 0.5 : (person.title === 'Ollie' ? d.O : 1 - d.O)))
     }, 0) + AccData.wants.reduce(function (sum, d) {
       return sum + (d.req * (d.equal ? 0.5 : (person.title === 'Ollie' ? d.O : 1 - d.O)))
@@ -32,6 +32,7 @@ const mthLabels = () => {
   const formatter = new Intl.DateTimeFormat('us', { month: 'short' })
   // formatter.format()
   const date = new Date()
+  date.setMonth(date.getMonth() - 1)
   const arr = []
   for (let i = 0; i < 7; i++) {
     arr.push({
