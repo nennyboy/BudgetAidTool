@@ -11,17 +11,17 @@ ReactFC.fcRoot(FusionCharts, MSArea, FusionTheme)
 
 const mthDataset = () => {
   return Object.values(MthData).map((person) => {
-    const change = (AccData.needs.reduce(function (sum, d) {
+    var change = (AccData.needs.reduce(function (sum, d) {
       return sum + (d.req * (d.equal ? 0.5 : (person.title === 'Ollie' ? d.O : 1 - d.O)))
     }, 0) + AccData.wants.reduce(function (sum, d) {
       return sum + (d.req * (d.equal ? 0.5 : (person.title === 'Ollie' ? d.O : 1 - d.O)))
     }, 0) + AccData.savings.reduce(function (sum, d) {
       return sum + (d.req * (d.equal ? 0.5 : (person.title === 'Ollie' ? d.O : 1 - d.O)))
     }, 0))
-    const arr = []
-    for (let i = 0; i < 7; i++) {
+    var arr = []
+    for (var i = 0; i < 7; i++) {
       arr.push({
-        value: ((change) * i + person.bal)
+        value: (person.bal - (change * i))
       })
     }
     return { seriesname: person.title, data: arr }
@@ -31,10 +31,10 @@ const mthDataset = () => {
 const mthLabels = () => {
   const formatter = new Intl.DateTimeFormat('us', { month: 'short' })
   // formatter.format()
-  const date = new Date()
+  var date = new Date()
   date.setMonth(date.getMonth() - 1)
-  const arr = []
-  for (let i = 0; i < 7; i++) {
+  var arr = []
+  for (var i = 0; i < 7; i++) {
     arr.push({
       label: formatter.format(date.setMonth(date.getMonth() + 1))
     })
