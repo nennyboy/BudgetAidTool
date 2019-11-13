@@ -15,7 +15,7 @@ function App () {
   if (!show) {
     return (
       <Container className='text-center'>
-        <h1>Locked</h1>
+        <h1 className='text-center my-3 py-3'>Locked</h1>
         <p>Please enter the appropriate lock code to enter</p>
         <PinInput
           length={4}
@@ -23,6 +23,7 @@ function App () {
           secret
           onChange={(value, index) => { setError(false) }}
           type='numeric'
+          pattern='\\d*'
           ref={p => (pin = p)}
           style={{ padding: '0px' }}
           inputStyle={{
