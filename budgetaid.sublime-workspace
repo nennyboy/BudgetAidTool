@@ -20,27 +20,27 @@
 			"file": "src/App.js",
 			"settings":
 			{
-				"buffer_size": 977,
+				"buffer_size": 1262,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "public/manifest.json",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 486,
+				"buffer_size": 843,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/App.css",
+			"file": "src/person/Chart.js",
 			"settings":
 			{
-				"buffer_size": 555,
+				"buffer_size": 2265,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -48,6 +48,14 @@
 			"settings":
 			{
 				"buffer_size": 1581,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/person/persondetail/PersonOverview.js",
+			"settings":
+			{
+				"buffer_size": 2147,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -56,16 +64,7 @@
 			"file": "src/data/monthly.json",
 			"settings":
 			{
-				"buffer_size": 129,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/person/budgettool/BudgetToolRow.js",
-			"settings":
-			{
-				"buffer_size": 1308,
+				"buffer_size": 305,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -124,16 +123,23 @@
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/data",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person",
-		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/budgettool",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail/persondiff"
 	],
 	"file_history":
 	[
-		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/build/manifest.json",
-		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/App.js",
-		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/App.css",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/resources/chart.css",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/resources/config.js",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/resources/data.js",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/Chart.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/BudgetTool.js",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/budgettool/BudgetToolRow.js",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/data/accounts.json",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/data/monthly.json",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/App.js",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/public/manifest.json",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/App.css",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/build/manifest.json",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail/persondiff/PersonDiffTRow.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/budgettool/BudgetToolTRow.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/PersonDetail.js",
@@ -153,7 +159,6 @@
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/posts/CardList.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/posts/CardDetail.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/index.js",
-		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/data/monthly.json",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/posts/CardDiff.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/data/posts.json",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/package.json",
@@ -216,8 +221,8 @@
 						"selection":
 						[
 							[
-								1285,
-								1285
+								1171,
+								1171
 							]
 						],
 						"settings":
@@ -230,7 +235,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -239,15 +244,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 977,
+						"buffer_size": 1262,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								203,
-								203
+								902,
+								902
 							]
 						],
 						"settings":
@@ -267,24 +272,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "public/manifest.json",
+					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 486,
+						"buffer_size": 843,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								59
+								120,
+								120
 							]
 						],
 						"settings":
@@ -302,40 +307,35 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/App.css",
+					"file": "src/person/Chart.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 555,
+						"buffer_size": 2265,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								251,
-								251
+								1165,
+								1165
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 57.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 4,
 					"file": "src/data/accounts.json",
@@ -349,8 +349,8 @@
 						"selection":
 						[
 							[
-								1348,
-								1348
+								0,
+								0
 							]
 						],
 						"settings":
@@ -363,54 +363,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "src/data/monthly.json",
+					"file": "src/person/persondetail/PersonOverview.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 129,
+						"buffer_size": 2147,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								69,
-								69
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/person/budgettool/BudgetToolRow.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1308,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								965,
-								830
+								86,
+								41
 							]
 						],
 						"settings":
@@ -430,7 +400,43 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "src/data/monthly.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

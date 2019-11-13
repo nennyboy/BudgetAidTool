@@ -27,3 +27,21 @@ body > .mainwrapper {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch; /* enables “momentum” (smooth) scrolling */
 }
+
+.pincode-input-text {
+  /*border-right-width: 0px !important; */
+  margin-left: -1px !important;
+}
+
+.pincode-input-text:focus {
+  position: relative;
+  z-index: 99 !important;
+}
+
+.pincode-input-text:first-of-type {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.pincode-input-text:last-of-type {
+  border-radius: 0px 10px 10px 0px;
+}
