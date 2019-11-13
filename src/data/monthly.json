@@ -2,11 +2,15 @@
   {
     "id": 0,
     "title": "Ollie",
-    "amount": 900.0
+    "amount": 840.0,
+    "bal":3613,
+    "_as-of": "2019-11-01"
   },
   {
     "id": 1,
     "title": "Maja",
-    "amount": 860.5
+    "amount": 860.5,
+    "bal":2154,
+    "_as-of": "2019-11-13"
   }
 ]
