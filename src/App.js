@@ -20,16 +20,17 @@ function App () {
         <PinInput
           length={4}
           initialValue=''
-          secret
+
           onChange={(value, index) => { setError(false) }}
-          type='numeric'
+          inputmode='decimal'
           pattern='\\d*'
+          type='numeric'
           ref={p => (pin = p)}
           style={{ padding: '0px' }}
           inputStyle={{
             borderColor: (error ? '#ff9b9b' : 'LightGray'),
             background: (error ? '#ffe7e7' : 'transparent'),
-            fontSize: '1.5rem',
+            fontSize: '1.25rem',
             fontFamily: 'Quantico',
             margin: '0px'
           }}
