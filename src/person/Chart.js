@@ -11,7 +11,8 @@ ReactFC.fcRoot(FusionCharts, MSArea, FusionTheme)
 
 const mthDataset = () => {
   return Object.values(MthData).map((person) => {
-    var change = (AccData.needs.reduce(function (sum, d) {
+    var until = new Date(person.until)
+    var costs = (AccData.needs.reduce(function (sum, d) {
       return sum + (d.req * (d.equal ? 0.5 : (person.title === 'Ollie' ? d.O : 1 - d.O)))
     }, 0) + AccData.wants.reduce(function (sum, d) {
       return sum + (d.req * (d.equal ? 0.5 : (person.title === 'Ollie' ? d.O : 1 - d.O)))
@@ -19,10 +20,14 @@ const mthDataset = () => {
       return sum + (d.req * (d.equal ? 0.5 : (person.title === 'Ollie' ? d.O : 1 - d.O)))
     }, 0))
     var arr = []
+    var date = new Date()
     for (var i = 0; i < 7; i++) {
       arr.push({
-        value: (person.bal - (change * i))
+        value: (person.bal +
+          (((until < date) ? person.then : person.amount) * i) -
+          (costs * i))
       })
+      date.setMonth(date.getMonth() + 1)
     }
     return { seriesname: person.title, data: arr }
   })
