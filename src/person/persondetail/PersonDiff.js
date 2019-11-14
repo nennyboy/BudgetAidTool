@@ -14,12 +14,12 @@ class PersonDiff extends Component {
         <Card.Title>Difference</Card.Title>
         <div className='table-responsive'>
           <Table size='sm small'>
-            <thead className='text-center thead-light'>
+            <thead className='text-right thead-light'>
               <tr>
                 <th colSpan='2' className='text-left'>Account</th>
                 <th>$</th>
-                <th>%</th>
-                <th>E[X]</th>
+                <th>% | <small>% >ideal</small></th>
+                <th>E[X] | <small>ideal</small></th>
                 <th>+/-</th>
               </tr>
             </thead>

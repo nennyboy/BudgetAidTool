@@ -41,11 +41,16 @@ class PersonDiffTRow extends Component {
       return sum
     }, {})
 
+    var catIdealArray = category.reduce(function (sum, d, i) {
+      sum.percent = ((!sum.percent) ? 0 : sum.percent) + d.ideal
+      return sum
+    }, {})
+
     return (<tr className='text-muted font-weight-light bg-light text-right'>
       <td colSpan='2' className='text-dark font-weight-normal text-left'>{name}</td>
       <td>{curr.format(catArray.amount)}</td>
-      <td>{(catArray.percent * 100).toFixed(1) + '%'}</td>
-      <td className='text-right'>{curr.format(catArray.afford)}</td>
+      <td>{(catArray.percent * 100).toFixed(1) + '%'} | <small>{(catIdealArray.percent * 100).toFixed(1) + '%'}</small></td>
+      <td className='text-right'>{curr.format(catArray.afford)}   | <small>{curr.format(catIdealArray.percent * person.amount)}</small></td>
       <td className='text-right'>
         {curr.format(catArray.diff)}
       </td>

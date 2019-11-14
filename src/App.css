@@ -6,6 +6,10 @@
 font-size: 0.9rem;
 }
 
+.text-muted-blue {
+  color: #1b8dbb !important;
+}
+
 h1 {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   text-align: center;

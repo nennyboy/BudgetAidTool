@@ -37,8 +37,8 @@ class PersonDiffRow extends Component {
       <td />
       <td className='font-weight-normal text-left'>{acct.name}</td>
       <td>{curr.format(accAmount(acct))}</td>
-      <td>{(accPercent(acct) * 100).toFixed(1) + '%'}</td>
-      <td className='text-info'>{curr.format(accAfford(acct))}</td>
+      <td>{(accPercent(acct) * 100).toFixed(1) + '%'} | <small className='text-muted'>{(acct.ideal * 100).toFixed(1) + '%'}</small></td>
+      <td className='text-info'>{curr.format(accAfford(acct))}  | <small className='text-muted-blue'>{curr.format(acct.ideal * person.amount)}</small></td>
       <td className={(accAfford(acct) - accAmount(acct) >= 0 ? 'text-success' : 'text-danger')}>
         {curr.format(accAfford(acct) - accAmount(acct))}
       </td>

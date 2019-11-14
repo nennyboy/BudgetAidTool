@@ -5,49 +5,56 @@
       "name": "Rent",
       "req": 705,
       "equal": true,
-      "O": null
+      "O": null,
+      "ideal": 0.25
     },
     {
       "id": 2,
       "name": "Utilities",
       "req": 110,
       "equal": true,
-      "O": null
+      "O": null,
+      "ideal": 0.08
     },
     {
       "id": 3,
       "name": "Groceries",
       "req": 242,
       "equal": false,
-      "O": 0.8
+      "O": 0.8,
+      "ideal": 0.05
     },
     {
       "id": 4,
       "name": "Insurance",
       "req": 183.68,
       "equal": false,
-      "O": 1.0
+      "O": 1.0,
+      "ideal": 0.0415
     },
     {
       "id": 5,
       "name": "Fuel",
       "req": 205,
       "equal": false,
-      "O": 1.0
+      "O": 1.0,
+      "ideal": 0.0332
     },
     {
       "id": 6,
       "name": "Car Maintenance",
       "req": 109.75,
       "equal": true,
-      "O": 1.0
+      "O": 1.0,
+      "ideal": 0.0252
     },
     {
       "id": 7,
       "name": "Medical",
       "req": 30,
       "equal": true,
-      "O": 1.0
+      "O": 1.0,
+      "ideal": 0.02
     }
   ],
   "wants": [
@@ -56,35 +63,40 @@
       "name": "Fun",
       "req": 250,
       "equal": false,
-      "O": 0.56
+      "O": 0.56,
+      "ideal": 0.15
     },
     {
       "id": 2,
       "name": "Gym",
       "req": 57,
       "equal": false,
-      "O": 1.0
+      "O": 1.0,
+      "ideal": 0.02
     },
     {
       "id": 3,
       "name": "Subscriptions",
       "req": 121,
       "equal": false,
-      "O": 0.63
+      "O": 0.63,
+      "ideal": 0.03
     },
     {
       "id": 4,
       "name": "Clothing",
       "req": 101,
       "equal": false,
-      "O": 0.0099
+      "O": 0.0099,
+      "ideal": 0.06
     },
     {
       "id": 5,
       "name": "Additions",
       "req": 0.01,
       "equal": false,
-      "O": 1.0
+      "O": 1.0,
+      "ideal": 0.04
     }
   ],
   "savings": [
@@ -93,14 +105,16 @@
       "name": "Savings",
       "req": 172.1,
       "equal": false,
-      "O": 0
+      "O": 0,
+      "ideal": 0.15
     },
     {
       "id": 2,
       "name": "Vacation",
       "req": 0,
       "equal": false,
-      "O": 0
+      "O": 0,
+      "ideal": 0.05
     }
   ]
 }
