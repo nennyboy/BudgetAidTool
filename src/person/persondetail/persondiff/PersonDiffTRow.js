@@ -26,11 +26,12 @@ class PersonDiffTRow extends Component {
     }
 
     function accPercent (acct) {
-      return accAmount(acct) / amountCosts
+      // return accAmount(acct) / amountCosts
+      return accAmount(acct) / person.amount
     }
 
     function accAfford (acct) {
-      return accPercent(acct) * person.amount
+      return acct.ideal * person.amount
     }
 
     var catArray = category.reduce(function (sum, d, i) {
@@ -49,8 +50,13 @@ class PersonDiffTRow extends Component {
     return (<tr className='text-muted font-weight-light bg-light text-right'>
       <td colSpan='2' className='text-dark font-weight-normal text-left'>{name}</td>
       <td>{curr.format(catArray.amount)}</td>
-      <td>{(catArray.percent * 100).toFixed(1) + '%'} | <small>{(catIdealArray.percent * 100).toFixed(1) + '%'}</small></td>
-      <td className='text-right'>{curr.format(catArray.afford)}   | <small>{curr.format(catIdealArray.percent * person.amount)}</small></td>
+      <td>
+        <span>{(catArray.percent * 100).toFixed(1) + '%'} | </span>
+        <small>{(catIdealArray.percent * 100).toFixed(1) + '%'}</small>
+      </td>
+      <td className='text-right'>
+        {curr.format(catIdealArray.percent * person.amount)}
+      </td>
       <td className='text-right'>
         {curr.format(catArray.diff)}
       </td>

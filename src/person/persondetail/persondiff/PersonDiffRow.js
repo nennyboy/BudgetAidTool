@@ -26,19 +26,25 @@ class PersonDiffRow extends Component {
     }
 
     function accPercent (acct) {
-      return accAmount(acct) / amountCosts
+      // return accAmount(acct) / amountCosts
+      return accAmount(acct) / person.amount
     }
 
     function accAfford (acct) {
-      return accPercent(acct) * person.amount
+      return acct.ideal * person.amount
     }
 
     return (<tr className='font-weight-light text-right'>
       <td />
       <td className='font-weight-normal text-left'>{acct.name}</td>
       <td>{curr.format(accAmount(acct))}</td>
-      <td>{(accPercent(acct) * 100).toFixed(1) + '%'} | <small className='text-muted'>{(acct.ideal * 100).toFixed(1) + '%'}</small></td>
-      <td className='text-info'>{curr.format(accAfford(acct))}  | <small className='text-muted-blue'>{curr.format(acct.ideal * person.amount)}</small></td>
+      <td>
+        <span>{(accPercent(acct) * 100).toFixed(1) + '%'} | </span>
+        <small className='text-muted'>{(acct.ideal * 100).toFixed(1) + '%'}</small>
+      </td>
+      <td className='text-info'>
+        <span className='text-muted-blue'>{curr.format(acct.ideal * person.amount)}</span>
+      </td>
       <td className={(accAfford(acct) - accAmount(acct) >= 0 ? 'text-success' : 'text-danger')}>
         {curr.format(accAfford(acct) - accAmount(acct))}
       </td>

@@ -8,30 +8,12 @@
 	"buffers":
 	[
 		{
-			"file": "public/index.html",
+			"file": "src/data/accounts.json",
 			"settings":
 			{
-				"buffer_size": 1816,
+				"buffer_size": 1898,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/App.js",
-			"settings":
-			{
-				"buffer_size": 2724,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/App.css",
-			"settings":
-			{
-				"buffer_size": 883,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -93,10 +75,16 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/package.json",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail/PersonDiff.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/data/monthly.json",
-		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail/PersonOverview.js",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail/persondiff/PersonDiffRow.js",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail/persondiff/PersonDiffTRow.js",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/App.css",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/public/index.html",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/data/accounts.json",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/App.js",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/package.json",
+		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail/PersonOverview.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/Chart.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/resources/chart.css",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/resources/config.js",
@@ -104,17 +92,12 @@
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/Chart.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/BudgetTool.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/budgettool/BudgetToolRow.js",
-		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/App.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/public/manifest.json",
-		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/App.css",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/build/manifest.json",
-		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail/persondiff/PersonDiffTRow.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/budgettool/BudgetToolTRow.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/PersonDetail.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail/budgettool/BudgetToolRow.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/PersonList.js",
-		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail/PersonDiff.js",
-		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail/persondiff/PersonDiffRow.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/src/person/persondetail/persondiff/PersonDiffRow",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/node_modules/react-bootstrap/esm/AccordionToggle.js",
 		"/C/Users/Admin/Documents/Projects/node/budgetaid/reactapp/node_modules/react-bootstrap/esm/Accordion.js",
@@ -171,59 +154,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/index.html",
+					"file": "src/data/accounts.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1816,
+						"buffer_size": 1898,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								70,
-								70
+								898,
+								898
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/App.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2724,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								787,
-								787
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/TypeScript/TypeScriptReact.tmLanguage",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"typescript_plugin_format_options":
@@ -231,44 +184,13 @@
 								"convertTabsToSpaces": true,
 								"indentSize": 2,
 								"tabSize": 2
-							},
-							"use_tab_stops": false
+							}
 						},
-						"translation.x": 60.0,
-						"translation.y": 198.0,
+						"translation.x": 0.0,
+						"translation.y": 416.8,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/App.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 883,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								843,
-								843
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -307,7 +229,7 @@
 		"cols":
 		[
 			0.0,
-			0.643884892086,
+			0.902799377916,
 			1.0
 		],
 		"rows":

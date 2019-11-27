@@ -4,16 +4,16 @@
       "id": 1,
       "name": "Rent",
       "req": 705,
-      "equal": true,
-      "O": null,
+      "equal": false,
+      "O": 0.842,
       "ideal": 0.25
     },
     {
       "id": 2,
       "name": "Utilities",
       "req": 110,
-      "equal": true,
-      "O": null,
+      "equal": false,
+      "O": 0.842,
       "ideal": 0.08
     },
     {
@@ -21,7 +21,7 @@
       "name": "Groceries",
       "req": 242,
       "equal": false,
-      "O": 0.8,
+      "O": 0.842,
       "ideal": 0.05
     },
     {
@@ -44,16 +44,16 @@
       "id": 6,
       "name": "Car Maintenance",
       "req": 109.75,
-      "equal": true,
+      "equal": false,
       "O": 1.0,
       "ideal": 0.0252
     },
     {
       "id": 7,
       "name": "Medical",
-      "req": 30,
-      "equal": true,
-      "O": 1.0,
+      "req": 65,
+      "equal": false,
+      "O": 0.76,
       "ideal": 0.02
     }
   ],
@@ -61,9 +61,9 @@
     {
       "id": 1,
       "name": "Fun",
-      "req": 250,
+      "req": 819,
       "equal": false,
-      "O": 0.56,
+      "O": 0.842,
       "ideal": 0.15
     },
     {
@@ -85,15 +85,15 @@
     {
       "id": 4,
       "name": "Clothing",
-      "req": 101,
+      "req": 377,
       "equal": false,
-      "O": 0.0099,
+      "O": 0.732,
       "ideal": 0.06
     },
     {
       "id": 5,
       "name": "Additions",
-      "req": 0.01,
+      "req": 183.99,
       "equal": false,
       "O": 1.0,
       "ideal": 0.04
@@ -103,17 +103,17 @@
     {
       "id": 1,
       "name": "Savings",
-      "req": 172.1,
+      "req": 862.1,
       "equal": false,
-      "O": 0,
+      "O": 0.8,
       "ideal": 0.15
     },
     {
       "id": 2,
       "name": "Vacation",
-      "req": 0,
+      "req": 230,
       "equal": false,
-      "O": 0,
+      "O": 1.0,
       "ideal": 0.05
     }
   ]

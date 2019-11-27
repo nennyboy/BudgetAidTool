@@ -18,8 +18,8 @@ class PersonDiff extends Component {
               <tr>
                 <th colSpan='2' className='text-left'>Account</th>
                 <th>$</th>
-                <th>% | <small>% >ideal</small></th>
-                <th>E[X] | <small>ideal</small></th>
+                <th>% | <small>% ideal</small></th>
+                <th><small>ideal</small></th>
                 <th>+/-</th>
               </tr>
             </thead>
