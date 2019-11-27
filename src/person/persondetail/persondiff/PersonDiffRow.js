@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import AccData from '../../../data/accounts.json'
+// import AccData from '../../../data/accounts.json'
 
 class PersonDiffRow extends Component {
   render () {
@@ -10,15 +10,15 @@ class PersonDiffRow extends Component {
     })
 
     const { acct, person } = this.props
-    const { needs, wants, savings } = AccData
+    // const { needs, wants, savings } = AccData
 
-    var amountCosts = (needs.reduce(function (sum, d) {
+    /* var amountCosts = (needs.reduce(function (sum, d) {
       return sum + (d.req * (d.equal ? 0.5 : (person.title === 'Ollie' ? d.O : 1 - d.O)))
     }, 0) + wants.reduce(function (sum, d) {
       return sum + (d.req * (d.equal ? 0.5 : (person.title === 'Ollie' ? d.O : 1 - d.O)))
     }, 0) + savings.reduce(function (sum, d) {
       return sum + (d.req * (d.equal ? 0.5 : (person.title === 'Ollie' ? d.O : 1 - d.O)))
-    }, 0))
+    }, 0)) */
 
     function accAmount (acct) {
       return (acct.req *
