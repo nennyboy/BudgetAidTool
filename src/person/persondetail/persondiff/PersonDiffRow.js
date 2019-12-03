@@ -42,9 +42,15 @@ class PersonDiffRow extends Component {
 			  <td />
 			  <td className='font-weight-normal text-left'>{acct.name}</td>
 			  <td>
-					<OverlayTrigger placement='left' overlay={
-						<Tooltip id="tooltip-disabled">curr.format((accAmount(acct)*3))</Tooltip>
-						}>
+					<OverlayTrigger
+						  key={acct.id}
+						  placement='left'
+						  overlay={
+							<Tooltip id=={acct.id}>
+							  Tooltip on <strong>Test</strong>.
+							</Tooltip>
+						  }
+						>
 					  <span>{curr.format(accAmount(acct))}</span>
 					</OverlayTrigger>
 			  </td>
