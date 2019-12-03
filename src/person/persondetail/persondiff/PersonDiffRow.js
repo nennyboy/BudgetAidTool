@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Tooltip, OverlayTrigger } from 'react'
 // import AccData from '../../../data/accounts.json'
 
 class PersonDiffRow extends Component {
