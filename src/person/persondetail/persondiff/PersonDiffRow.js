@@ -1,4 +1,5 @@
-import React, { Component, Tooltip, OverlayTrigger } from 'react'
+import React, { Component } from 'react'
+import { Tooltip, OverlayTrigger } from 'react-bootstrap'
 // import AccData from '../../../data/accounts.json'
 
 class PersonDiffRow extends Component {
@@ -33,19 +34,14 @@ class PersonDiffRow extends Component {
     function accAfford (acct) {
       return acct.ideal * person.amount
     }
-	
-	function renderTooltip(props) {
-	  return <Tooltip {...props}>Simple tooltip</Tooltip>;
-	}
 
     return (<tr className='font-weight-light text-right'>
 			  <td />
 			  <td className='font-weight-normal text-left'>{acct.name}</td>
 			  <td>
 					<OverlayTrigger
-						placement="right"
-						delay={{ show: 250, hide: 400 }}
-						overlay={renderTooltip}
+						placement='left'
+						overlay={<Tooltip {...props}>{curr.format((accAmount(acct)*3))}</Tooltip>}
 					  >
 						<span>{curr.format(accAmount(acct))}</span>
 					  </OverlayTrigger>
