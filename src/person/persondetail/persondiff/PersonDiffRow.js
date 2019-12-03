@@ -37,7 +37,13 @@ class PersonDiffRow extends Component {
     return (<tr className='font-weight-light text-right'>
       <td />
       <td className='font-weight-normal text-left'>{acct.name}</td>
-      <td><OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Tooltip!</Tooltip>}>{curr.format(accAmount(acct))}</OverlayTrigger><</td>
+      <td>
+            <OverlayTrigger placement='left' overlay={
+              <Tooltip id="tooltip-disabled">{curr.format(accAmount(acct)*3)}</Tooltip>
+            }>
+              <span>{curr.format(accAmount(acct))}</span>
+            </OverlayTrigger>
+      </td>
       <td>
         <span>{(accPercent(acct) * 100).toFixed(1) + '%'} | </span>
         <small className='text-muted'>{(acct.ideal * 100).toFixed(1) + '%'}</small>
