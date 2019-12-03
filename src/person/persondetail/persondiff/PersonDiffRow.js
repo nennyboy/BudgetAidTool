@@ -41,7 +41,7 @@ class PersonDiffRow extends Component {
 			  <td>
 					<OverlayTrigger
 						placement='left'
-						overlay={<Tooltip {...props}>{curr.format((accAmount(acct)*3))}</Tooltip>}
+						overlay={<Tooltip>{curr.format((accAmount(acct)*3))}</Tooltip>}
 					  >
 						<span>{curr.format(accAmount(acct))}</span>
 					  </OverlayTrigger>
