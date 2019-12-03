@@ -46,7 +46,7 @@ class PersonDiffRow extends Component {
 						  key={acct.id}
 						  placement='left'
 						  overlay={
-							<Tooltip id=={acct.id}>
+							<Tooltip id={acct.id}>
 							  Tooltip on <strong>Test</strong>.
 							</Tooltip>
 						  }
