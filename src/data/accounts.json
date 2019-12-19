@@ -69,7 +69,7 @@
     {
       "id": 2,
       "name": "Gym",
-      "req": 57,
+      "req": 14,
       "equal": false,
       "O": 1.0,
       "ideal": 0.02
