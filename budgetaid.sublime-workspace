@@ -15,6 +15,24 @@
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "src/person/persondetail/persondiff/PersonDiffTRow.js",
+			"settings":
+			{
+				"buffer_size": 2284,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/person/persondetail/persondiff/PersonDiffRow.js",
+			"settings":
+			{
+				"buffer_size": 1882,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -154,7 +172,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -188,6 +206,68 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 416.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/person/persondetail/persondiff/PersonDiffTRow.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/person/persondetail/persondiff/PersonDiffRow.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								549,
+								549
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
