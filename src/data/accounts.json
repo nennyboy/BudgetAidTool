@@ -77,9 +77,9 @@
     {
       "id": 3,
       "name": "Subscriptions",
-      "req": 121,
+      "req": 166,
       "equal": false,
-      "O": 0.63,
+      "O": 0.646,
       "ideal": 0.03
     },
     {
