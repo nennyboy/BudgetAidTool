@@ -27,11 +27,11 @@ class PersonDiff extends Component {
         <Card.Title>
           <Container>
             <Row>
-              <Col xs={10}>Difference</Col>
-              <Col xs={2}>
-                <InputGroup className='mb-3' size='small'>
+              <Col xs={6} sm={9} md={10} lg={10}>Difference</Col>
+              <Col xs={6} sm={3} md={2} lg={2}>
+                <InputGroup size='small'>
                   <InputGroup.Prepend>
-                    <InputGroup.Text id='basic-addon1'>Multiplier:</InputGroup.Text>
+                    <InputGroup.Text id='basic-addon1'>×</InputGroup.Text>
                   </InputGroup.Prepend>
                   <FormControl
                     as='input'
