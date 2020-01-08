@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Utilities",
-      "req": 110,
+      "req": 150,
       "equal": false,
       "O": 0.842,
       "ideal": 0.08
