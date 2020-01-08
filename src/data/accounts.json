@@ -14,7 +14,7 @@
       "req": 150,
       "equal": false,
       "O": 0.842,
-      "ideal": 0.08
+      "ideal": 0.05
     },
     {
       "id": 3,
@@ -54,7 +54,7 @@
       "req": 65,
       "equal": false,
       "O": 0.76,
-      "ideal": 0.02
+      "ideal": 0.05
     }
   ],
   "wants": [
