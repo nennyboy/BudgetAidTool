@@ -88,7 +88,7 @@
       "req": 377,
       "equal": false,
       "O": 0.732,
-      "ideal": 0.06
+      "ideal": 0.04
     },
     {
       "id": 5,
@@ -96,25 +96,25 @@
       "req": 183.99,
       "equal": false,
       "O": 1.0,
-      "ideal": 0.04
+      "ideal": 0.02
+    },
+    {
+      "id": 6,
+      "name": "Travel",
+      "req": 276,
+      "equal": false,
+      "O": 1.0,
+      "ideal": 0.06
     }
   ],
   "savings": [
     {
       "id": 1,
       "name": "Savings",
-      "req": 862.1,
+      "req": 1092.42,
       "equal": false,
-      "O": 0.8,
+      "O": 0.842,
       "ideal": 0.15
-    },
-    {
-      "id": 2,
-      "name": "Vacation",
-      "req": 230,
-      "equal": false,
-      "O": 1.0,
-      "ideal": 0.05
     }
   ]
 }
