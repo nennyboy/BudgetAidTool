@@ -5,7 +5,7 @@
       "name": "Rent",
       "req": 1261.39,
       "equal": false,
-      "O": 0.912,
+      "O": 0.891,
       "ideal": 0.25
     },
     {
@@ -13,7 +13,7 @@
       "name": "Utilities",
       "req": 150,
       "equal": false,
-      "O": 0.842,
+      "O": 0.8,
       "ideal": 0.05
     },
     {
@@ -21,7 +21,7 @@
       "name": "Groceries",
       "req": 242,
       "equal": false,
-      "O": 0.842,
+      "O": 0.8,
       "ideal": 0.05
     },
     {
@@ -63,7 +63,7 @@
       "name": "Fun",
       "req": 819,
       "equal": false,
-      "O": 0.842,
+      "O": 0.8,
       "ideal": 0.15
     },
     {
@@ -113,7 +113,7 @@
       "name": "Retirement",
       "req": 1092.42,
       "equal": false,
-      "O": 0.842,
+      "O": 0.8,
       "ideal": 0.2
     }
   ]
